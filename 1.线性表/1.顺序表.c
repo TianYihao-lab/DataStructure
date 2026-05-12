@@ -15,8 +15,8 @@ void initList(ArryList list) ;  					   // 初始化操作
 void insertList(ArryList list, E element, int index) ; // 在数组list的第index个位置上插入一个元素element
 void deleteList(ArryList list, int index) ;		       // 删除指定位置上的元素
 void printList(ArryList list) ;  					   // 打印顺序表
-E* getList(ArryList list, int index) ;				   // 获得指定位置上的元素
-int findList(ArryList list,E e) ;   				   // 寻找元素e在数组中的位序
+E* getList(ArryList list, int index) ;				   // 获得指定位置上的元素（按位查找）
+int findList(ArryList list,E e) ;   				   // 寻找元素e在数组中的位序（按值查找）
 int sizeList(ArryList list) ;						   // 获得顺序表的长度
 
 void test01() {
